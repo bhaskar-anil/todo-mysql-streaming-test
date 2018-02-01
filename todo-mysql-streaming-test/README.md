@@ -4,11 +4,7 @@ This is a minimal Spring Boot Todo List application. I've created this app as a 
 to log number of SQL queries Hibernate executes during rendering of a view (page).
 
 Application has a request interceptor and Hibernate interceptor registered and they count of the queries executed
-and log them. Count is also exposed in the model so stats can be displayed on the page itself. The details on how
-this works are explained in this blog post: [Counting Queries Per Request With Hibernate And Spring](http://knes1.github.io/blog/2015/2015-07-08-counting-queries-per-request-with-hibernate-and-spring.html)
-
-Idea is to use the stats (and display them on the page) while in development in order to quickly detect potential
-performance issues with execessive query generations (such as N+1 problems).
+and log them. Count is also exposed in the model so stats can be displayed on the page itself.
 
 ## Running
 
